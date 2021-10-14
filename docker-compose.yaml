@@ -2,7 +2,7 @@ version: '3'
 services:
   worker:
     labels:
-      shipyard.init: changed
+      shipyard.init: changed again
     build: .
     environment:
       DATABASE_URL: postgres://obscure-user:obscure-password@postgres/app
